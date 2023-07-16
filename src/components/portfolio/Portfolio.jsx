@@ -17,7 +17,7 @@ const data = [
     image: ReactPortfolio,
     title: "React Portfolio - WebApp",
     github: "https://github.com/whoisbunny/React-Portfolio.git",
-    demo: "https://github.com/whoisbunny/React-Portfolio.git",
+    demo: "https://whoisbunnyportfolio.netlify.app/",
   },
   {
     id: 3,
