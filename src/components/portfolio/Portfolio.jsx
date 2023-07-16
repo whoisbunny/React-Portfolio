@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import WORDO from '../../assets/wordo.png'
-import IMG2 from '../../assets/portfolio2.jpg'
+import ReactPortfolio from '../../assets/React_portfolio.png'
 import IMG3 from '../../assets/portfolio3.jpg'
 
 const data = [
@@ -14,10 +14,10 @@ const data = [
   },
   {
     id: 2,
-    image: IMG2,
-    title: "Project-2",
-    github: "https://github.com",
-    demo: "https://github.com",
+    image: ReactPortfolio,
+    title: "React Portfolio - WebApp",
+    github: "https://github.com/whoisbunny/React-Portfolio.git",
+    demo: "https://github.com/whoisbunny/React-Portfolio.git",
   },
   {
     id: 3,
@@ -26,7 +26,6 @@ const data = [
     github: "https://github.com",
     demo: "https://github.com",
   },
- 
 ];
 const Portfolio = () => {
   return (
