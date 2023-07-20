@@ -10,14 +10,14 @@ const data = [
     image: WORDO,
     title: "Wordo - Text editing webapp",
     github: "https://github.com/whoisbunny/wordo.git",
-    demo: "https://github.com/whoisbunny/wordo.git",
+    demo: "https://whoisbunnywordo.netlify.app",
   },
   {
     id: 2,
     image: ReactPortfolio,
     title: "React Portfolio - WebApp",
     github: "https://github.com/whoisbunny/React-Portfolio.git",
-    demo: "https://whoisbunnyportfolio.netlify.app/",
+    demo: "https://whoisbunny.netlify.app/",
   },
   {
     id: 3,
