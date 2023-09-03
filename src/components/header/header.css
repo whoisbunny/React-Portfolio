@@ -111,8 +111,8 @@ header{
         display: none ;
     }
     .me{
-            max-height: 40rem;
-                overflow: hidden;
+/*             max-height: 40rem; */
+/*                 overflow: hidden; */
     }
     .header__img{
         position: absolute;
