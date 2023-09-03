@@ -126,7 +126,7 @@ header{
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:420px) {
     header{
         height: 100vh;
 
