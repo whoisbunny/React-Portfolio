@@ -111,8 +111,8 @@ header{
         display: none ;
     }
     .me{
-/*             max-height: 40rem; */
-/*                 overflow: hidden; */
+            max-height: 20rem;
+                overflow: hidden;
     }
     .header__img{
         position: absolute;
@@ -123,5 +123,19 @@ header{
         width: 50%;
             
         object-fit:cover;
+    }
+}
+
+@media screen and (max-width:600px) {
+    header{
+        height: 100vh;
+
+    }
+    .header__socials , .scroll__down{
+        display: none ;
+    }
+    .me{
+            max-height: 500rem;
+                overflow: hidden;
     }
 }
