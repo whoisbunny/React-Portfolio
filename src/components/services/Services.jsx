@@ -19,15 +19,15 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BsCheck className="service_list-icon" />
-              <p>Well knolage of HTML , CSS , JS.</p>
+              <p>Well knowledge of HTML , CSS , JS.</p>
             </li>
             <li>
               <BsCheck className="service_list-icon" />
-              <p>Well knolage of React.</p>
+              <p>Well knowledge of React.</p>
             </li>
             <li>
               <BsCheck className="service_list-icon" />
-              <p>Well knolage of CSS frameworks.</p>
+              <p>Well knowledge of CSS frameworks.</p>
             </li>
           </ul>
         </article>
