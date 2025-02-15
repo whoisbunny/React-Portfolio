@@ -125,3 +125,17 @@ header{
         object-fit:cover;
     }
 }
+
+@media screen and (max-width:420px) {
+    header{
+        height: 100vh;
+
+    }
+    .header__socials , .scroll__down{
+        display: none ;
+    }
+    .me{
+            max-height: 500rem;
+                overflow: hidden;
+    }
+}
