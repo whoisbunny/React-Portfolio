@@ -1,20 +1,23 @@
-import React, { useRef } from 'react'
-import './contact.css'
-import {MdOutlineEmail} from 'react-icons/md'
-import {BsWhatsapp} from 'react-icons/bs'
-import emailjs from 'emailjs-com'
-
-
+import React, { useRef } from "react";
+import "./contact.css";
+import { MdOutlineEmail } from "react-icons/md";
+import { BsWhatsapp } from "react-icons/bs";
+import { LuLinkedin } from "react-icons/lu";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
-  const form =useRef();
+  const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
+    emailjs.sendForm(
+      "service_phbzn0d",
+      "template_7rfmguv",
+      form.current,
+      "qlOlty_51DeOKRb9k"
+    );
 
-    emailjs.sendForm('service_phbzn0d', 'template_7rfmguv', form.current, 'qlOlty_51DeOKRb9k')
-      
-      e.target.reset()
+    e.target.reset();
   };
 
   return (
@@ -38,6 +41,14 @@ const Contact = () => {
               Send Message
             </a>
           </article>
+          {/* <article className="contact__option">
+            <LuLinkedin  className="contact__option-icon" />
+            <h4>Linkedin</h4>
+            <h5>linkedin.com/in/whoisbunny</h5>
+            <a href="https://www.linkedin.com/in/whoisbunny">
+              Connect with me
+            </a>
+          </article> */}
         </div>
         {/* END OF CONTACT OPTION */}
         <form ref={form} onSubmit={sendEmail}>
@@ -60,6 +71,6 @@ const Contact = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Contact
+export default Contact;

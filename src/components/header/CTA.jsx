@@ -1,5 +1,4 @@
-import React from 'react'
-
+import React from "react";
 
 const CTA = () => {
   return (
@@ -16,11 +15,10 @@ const CTA = () => {
         Resume
       </a>
       <a href="#contact" className="btn btn-primary">
-        {" "}
         Contact Me
       </a>
     </div>
   );
-}
+};
 
-export default CTA
+export default CTA;
