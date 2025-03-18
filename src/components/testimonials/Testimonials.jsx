@@ -36,11 +36,10 @@ const Testimonials = () => {
         navigation
         pagination={{ clickable: true }}
       >
-        {data.map(({ name, avtar, review , id } , index) => {
-          console.log(id);
+        {data.map(({ name, avtar, review, id }, index) => {
           return (
             <>
-              <SwiperSlide className="testimonial" key={index} >
+              <SwiperSlide className="testimonial" key={index}>
                 <div className="client__avatar">
                   <img src={avtar} alt="" />
                 </div>
