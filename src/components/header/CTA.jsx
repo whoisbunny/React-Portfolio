@@ -5,7 +5,7 @@ const CTA = () => {
     <div className="cta">
       <a
         href={
-          "https://drive.google.com/file/d/1p4c0XpinS6OYbkHA37hxdnN7EKaqTZaT/view?usp=sharing"
+          "https://drive.google.com/file/d/1K2IC4wq9wGkHj-rnhmXf5sF94F2PjZOY/view?usp=sharing"
         }
         download
         className="btn"
